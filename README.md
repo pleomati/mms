@@ -49,3 +49,24 @@ Modern Music Scheduler is an advanced program for scheduling music playback on y
 - Make sure the VLC path is correct, especially if you use a custom installation.
 - Scheduling and countdown functions operate based on your system clock.
 
+Compiling to an executable file
+To compile the program into a stand-alone .exe file (Windows):
+
+- Requirements for compilation:
+    
+    ```bash
+    pip install nuitka
+
+To compile the program into a stand-alone .exe file (Windows):
+
+- Requirements for compilation:
+    
+    ```bash
+    pip install nuitka
+
+- Run command:
+
+    ```bash
+    nuitka --onefile --standalone --follow-imports --windows-console-mode=disable --windows-icon-from-ico=mms.ico --include-data-files=C:\Path\to\icon\mms.ico=mms.ico --enable-plugin=tk-inter --enable-plugin=pylint-warnings mms.py
+
+
