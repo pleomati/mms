@@ -49,7 +49,7 @@ Modern Music Scheduler is an advanced program for scheduling music playback on y
 - Make sure the VLC path is correct, especially if you use a custom installation.
 - Scheduling and countdown functions operate based on your system clock.
 
-Compiling to an executable file
+## Compiling
 To compile the program into a stand-alone .exe file (Windows):
 
 - Requirements for compilation:
